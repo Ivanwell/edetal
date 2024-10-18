@@ -13,6 +13,12 @@ const config: Config = {
         foreground: 'var(--foreground)',
         'regal-blue': 'rgba(255, 236, 68, 1)',
         'main-color': 'rgba(0, 60, 214, 1)',
+        'secondary-color': 'rgba(236, 243, 254, 1)',
+        'border-light': 'rgba(149, 179, 255, 1)',
+        'orange-btn': 'rgba(237, 100, 48, 1)',
+      },
+      screens: {
+        sm: '200px',
       },
     },
   },
