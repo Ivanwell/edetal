@@ -50,7 +50,10 @@ export default function Reviews() {
             />
           </div>
         </div>
-        <div onClick={listSlide} className="rotate-180 cursor-pointer">
+        <div
+          onClick={() => listSlide('next')}
+          className="rotate-180 cursor-pointer"
+        >
           {arrowLeft}
         </div>
       </div>

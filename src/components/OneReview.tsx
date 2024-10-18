@@ -1,4 +1,12 @@
-export default function OneReview({ name, car, image }) {
+export default function OneReview({
+  name,
+  car,
+  image,
+}: {
+  name: string
+  car: string
+  image: string
+}) {
   return (
     <div className="w-[calc(100vw_*_0.45_*_0.76_-_16px)] rounded-3xl bg-white flex flex-col justify-center items-center pb-8">
       <span className="text-center pt-3 text-[22px] pb-3">
